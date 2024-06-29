@@ -33,7 +33,7 @@ p{
     text-align: center;
 }
 .card-container{
-    background-color: rgb(4, 4, 71);
+    background-color: rgb(5, 4, 5);
     border-radius: 5px;
     box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
     color:rgb(171, 188, 216);
@@ -56,12 +56,55 @@ p{
     left:30px;
 }
 .online{
-    background-color: greenyellow;
+    background-color: rgb(28, 171, 85);
 }
 .offline{
-    background-color: chocolate;
+    background-color: rgb(240, 40, 9);
 }
 .img{
-    border:2px solid rgb(24, 22, 20);
-    border-radius: 100%;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border: 7px solid rgb(191, 207, 233);
+    border-radius: 50%; /* Makes the image oval */
+    padding: 7px;
+    object-fit: cover;
+    
+}
+.buttons{
+    justify-content: center;
+    display: flex;
+    gap:10px;
+}
+button.primary{
+    background-color: blue;
+    border:1px solid blue;
+    border-radius:3px;
+    color:aliceblue;
+    font-family:"Inter",sans-serif;
+    font-weight: 500;
+    padding:10px 25px;
+
+}
+button.primary.outline{
+    background-color: transparent;
+}
+.skills{
+    background-color: rgb(31, 34, 36);
+    text-align:left;
+    padding:15px;
+    margin-top:15px;
+}
+.skills ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.skills ul li{
+    border:1px solid rgb(102, 101, 98);
+    display:inline-block;
+    border-radius:2px;
+    padding:7px;
+    margin:0 7px 7px 0;
+    font-size:12px;
+
 }
